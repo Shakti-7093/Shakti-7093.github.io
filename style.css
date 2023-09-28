@@ -157,6 +157,7 @@ video {
     overflow-y: hidden;
     position: relative;
     z-index: 10;
+    display: flex;
 }
 
 #scroller::-webkit-scrollbar {
