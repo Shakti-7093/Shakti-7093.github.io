@@ -171,6 +171,14 @@ video {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
+#scroller-in-2 {
+    display: inline-block;
+    white-space: nowrap;
+    animation-name: scroll;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    }
 
 #scroller h4 {
     display: inline-block;
