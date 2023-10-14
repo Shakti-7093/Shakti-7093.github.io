@@ -118,6 +118,10 @@
             justify-content: flex-start;
             z-index: 99;
         }
+        #nav a{
+            text-decoration: none;
+            color: #fff;
+        }
         #nav img {
             height: 75px;
         }
@@ -390,6 +394,11 @@
         
             to {
                 transform: translateX(-100%);
+            }
+        }
+        @media only screen and (max-width: 1140px){
+            #nav{
+                flex-direction: column;
             }
         }
     </style>
